@@ -1,0 +1,3 @@
+!/bin/bash
+mcs -main:ConsoleWindow -out:bin/console.exe src/*.cs
+mono bin/console.exe
